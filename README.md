@@ -1,3 +1,8 @@
+Group Members: 
+1)Samiya Saeed 
+2)Maheera Afif
+3)Maryam Arshad
+
 Problem 2: ISP Network Failover
 Scenario:
 ConnectSphere ISP operates across three cities: City A (core), City B, and City C. Customers in City B lose Internet connectivity whenever the primary link between City A and City B fails. The ISP requires an automatic failover solution that redirects traffic through a backup path without any manual intervention.

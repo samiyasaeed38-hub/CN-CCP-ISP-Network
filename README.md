@@ -14,6 +14,8 @@ Technical Implementation:
 Floating static routes are used to achieve automatic failover. The primary route is assigned Administrative Distance (AD) of 1, making it always preferred. The backup route is assigned AD of 10, meaning it only activates when the primary route disappears from the routing table due to a link failure. This allows the router to automatically switch to the backup path without any manual configuration.
 Testing:
 Failover is tested by shutting down the primary link using the shutdown command on City A's interface. The show ip route command confirms the backup route is now active. A continuous ping from CustomerA to CustomerB verifies that end-to-end connectivity is maintained throughout the failure and recovery.
+PROJECT WITH ROUTER IMAGE:
+https://drive.google.com/drive/folders/1ySYL4gRVr5onK1ZCVkDn8xSZvr-JfZYu?usp=sharing
 Tools Used:
 
 GNS3 for network simulation
